@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+dependencies {
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'org.apache.kafka:kafka-clients:1.1.0'
+}
+
+mainClassName = "info.spadger.statestoresadness.client.Main"

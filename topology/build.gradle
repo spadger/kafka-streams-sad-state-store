@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+dependencies {
+    compile 'org.apache.kafka:kafka-streams:1.1.0'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+}
+
+mainClassName = "info.spadger.statestoresadness.topology.Main"
